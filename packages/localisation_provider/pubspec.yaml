@@ -1,0 +1,19 @@
+name: localisation_provider
+description: Flutter package for localisation
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.16.1
+  hive: ^1.4.4
+  hive_flutter: ^0.3.1
+  gsheets: ^0.2.5
+  excel: ^1.1.5
+

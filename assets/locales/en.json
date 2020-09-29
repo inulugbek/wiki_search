@@ -1,0 +1,9 @@
+{
+    "language": "Language",
+    "search": "Search",
+    "pictures": "pictures",
+    "welcome": "Search for some Wiki pages ✨",
+    "no_results": "Nothing found 😖",
+    "no_network": "No Internet connection 😓",
+    "error": "Oops, try again"
+}

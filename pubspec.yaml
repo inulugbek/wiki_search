@@ -1,0 +1,36 @@
+name: wiki_search
+description: Wiki search app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  localisation_provider:
+    path: packages/localisation_provider
+  search_repository:
+    path: packages/search_repository
+  platform_actions:
+    path: packages/platform_actions
+  network_info:
+    path: packages/network_info
+  flutter_bloc: ^6.0.5
+  equatable: ^1.2.5
+  rxdart: ^0.24.1
+  flutter_svg: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/locales/

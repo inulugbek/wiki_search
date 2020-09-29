@@ -1,0 +1,12 @@
+name: search_repository
+description: A Dart package for wiki search domain
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  wikipedia_api:
+    path: ../wikipedia_api
+  meta: ^1.2.3

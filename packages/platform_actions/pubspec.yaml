@@ -1,0 +1,14 @@
+name: platform_actions
+description: Flutter package for platform related actions.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^5.7.2
+
+
